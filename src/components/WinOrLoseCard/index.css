@@ -1,0 +1,54 @@
+.emoji-score-card {
+  display: flex;
+  background-color: #ffffff30;
+  padding: 20px 40px;
+  border: 2px solid #ffffff33;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.out-img {
+  height: 400px;
+}
+
+.score-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.score-heading {
+  color: #ffffff;
+  font-size: 48px;
+  font-family: 'Roboto';
+}
+
+.score-message {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.score {
+  margin-top: 0;
+  font-size: 44px;
+  font-family: 'Roboto';
+  color: #6a59ff;
+  font-weight: 800;
+}
+
+.play-again-btn {
+  background-color: #ffce27;
+  height: 34px;
+  width: 100px;
+  border: 0;
+  outline: none;
+  border-radius: 14px;
+  font-size: 12px;
+  font-weight: 600;
+}

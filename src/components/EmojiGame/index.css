@@ -1,0 +1,96 @@
+.main-container {
+  background-image: linear-gradient(to right bottom, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.emoji-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 200px;
+  background-color: #ffffff33;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .emoji-nav-bar {
+    padding: 2px;
+  }
+}
+
+.emoji-nav-bar-brand {
+  display: flex;
+}
+
+.emoji-nav-logo {
+  height: 60px;
+  width: 60px;
+  margin-right: 8px;
+}
+@media screen and (max-width: 768px) {
+  .emoji-nav-logo {
+    height: 30px;
+    width: 30px;
+    margin-top: 6px;
+  }
+}
+
+.emoji-brand-name {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 768px) {
+  .emoji-brand-name {
+    font-size: 16px;
+  }
+}
+
+.emoji-scores-container {
+  display: flex;
+}
+
+.emoji-score {
+  color: #ffffff;
+  margin-right: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 768px) {
+  .emoji-score {
+    font-size: 12px;
+  }
+}
+
+.emoji-cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  width: 60%;
+  margin-top: 40px;
+}
+@media screen and (max-width: 768px) {
+  .emoji-cards-container {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+.emoji-cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 40px;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .emoji-cards-list {
+    margin: 20px 10px;
+  }
+}

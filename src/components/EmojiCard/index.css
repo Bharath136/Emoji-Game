@@ -1,0 +1,12 @@
+.emoji-card-button {
+  height: 180px;
+  width: 180px;
+  background-color: #ffffff33;
+  border: 2px solid #ffffff30;
+  margin: 6px;
+  border-radius: 14px;
+  cursor: pointer;
+}
+.emoji {
+  height: 80px;
+}
